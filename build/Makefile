@@ -29,7 +29,8 @@ SRCS = $(SRCDIR)$(SEP)main.cpp \
 	$(SRCDIR)$(SEP)frame$(SEP)frame_serializer.cpp \
 	$(SRCDIR)$(SEP)socket$(SEP)socket.cpp \
 	$(SRCDIR)$(SEP)packet_stream$(SEP)packet_stream.cpp \
-	$(SRCDIR)$(SEP)renderer$(SEP)renderer.cpp
+	$(SRCDIR)$(SEP)renderer$(SEP)renderer.cpp \
+	$(SRCDIR)$(SEP)sprite$(SEP)sprite.cpp
 
 OBJS = $(patsubst ..$(SEP)src$(SEP)%.cpp, $(OBJDIR)$(SEP)%.o, $(SRCS))
 TARGET = bullet_hell$(EXE)
