@@ -31,6 +31,9 @@ SRCS = $(SRCDIR)/main.cpp \
 	$(SRCDIR)/socket/socket.cpp \
 	$(SRCDIR)/packet_stream/packet_stream.cpp \
 	$(SRCDIR)/renderer/renderer.cpp \
+	$(SRCDIR)/mesh/mesh.cpp \
+	$(SRCDIR)/shader/shader.cpp \
+	$(SRCDIR)/texture/texture2d.cpp
 
 OBJS_CPP = $(filter %.cpp, $(SRCS))
 OBJS_C = $(filter %.c, $(SRCS))
