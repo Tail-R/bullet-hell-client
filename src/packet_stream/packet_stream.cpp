@@ -58,7 +58,7 @@ std::optional<Frame> PacketStreamClient::retrieve_frame(size_t max_attempts) {
 
             if (!is_valid_packet_size(packet_header))
             {
-                std::cerr << "Invalid packet size: " << packet_header.body_size << " bytes" << std::endl;
+                std::cerr << "Invalid packet size: " << packet_header.body_size << " bytes" << "\n";
             
                 return std::nullopt;
             }

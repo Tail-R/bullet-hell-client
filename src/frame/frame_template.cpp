@@ -190,5 +190,5 @@ std::string frame_to_json_str(const Frame& frame) {
 }
 
 void print_frame(const Frame& frame) {
-    std::cout << frame_to_json_str(frame) << std::endl;
+    std::cout << frame_to_json_str(frame) << "\n";
 }

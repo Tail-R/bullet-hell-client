@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
 
     if (!psc.connect_to_server())
     {
-        std::cerr << "Failed to connect to server" << std::endl;
+        std::cerr << "Failed to connect to server" << "\n";
 
         return 1;
     }
@@ -28,7 +28,7 @@ int main(int argc, char* argv[]) {
         
         for (Frame f : frames)
         {
-            // async_log(LogLevel::Debug, frame_to_json_str(f));
+            async_log(LogLevel::Debug, frame_to_json_str(f));
         }   
     }
 

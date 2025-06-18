@@ -23,6 +23,7 @@ OBJDIR = obj
 
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Wshadow -Wnull-dereference -Wdouble-promotion -Wformat=2 -Wundef -Wcast-align -Wcast-qual -Wold-style-cast -Woverloaded-virtual -Wuseless-cast -Wnon-virtual-dtor -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wswitch-enum -Wno-unused-parameter
+
 SRCS = $(SRCDIR)$(SEP)main.cpp \
 	$(SRCDIR)$(SEP)logger$(SEP)logger.cpp \
 	$(SRCDIR)$(SEP)frame$(SEP)frame_template.cpp \
