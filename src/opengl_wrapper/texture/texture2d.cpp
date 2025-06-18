@@ -74,7 +74,7 @@ bool Texture2D::load_from_file(
         0,                  // Border, it must be 0 in modern OpenGL
         format,             // format of the source image data
         GL_UNSIGNED_BYTE,   // Type of each component, e.g. GL_UNSIGNED_BYTE
-        image_data        // Pointer to the image data 
+        image_data          // Pointer to the image data 
     );
 
     glGenerateMipmap(GL_TEXTURE_2D);
