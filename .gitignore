@@ -1,11 +1,5 @@
 # Ignore editor folders
 .vscode
 
-# Object files
-build/obj
-
-# Executable
-build/*.exe
-
-# Log files
-build/app.log
+# Build files
+build
