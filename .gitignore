@@ -2,4 +2,4 @@
 .vscode
 
 # Build files
-build
+build/
