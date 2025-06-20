@@ -1,5 +1,5 @@
 # Ignore editor folders
 .vscode
 
-# Build files
+# Build directory
 build/
